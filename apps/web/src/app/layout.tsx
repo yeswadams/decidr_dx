@@ -2,7 +2,8 @@ import type { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Decidr — Developer infrastructure for backend systems',
-  description: 'Explore, execute, test, and observe backend services, AI workflows, and smart contracts.',
+  description:
+    'Explore, execute, test, and observe backend services, AI workflows, and smart contracts.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {

@@ -1,0 +1,22 @@
+name: Feature or integration proposal
+description: Propose a capability, boundary, or ecosystem integration.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended users
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior or integration boundary
+      description: Explain ecosystem-specific needs and what belongs in framework-independent core.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and trade-offs
+    validations:
+      required: false

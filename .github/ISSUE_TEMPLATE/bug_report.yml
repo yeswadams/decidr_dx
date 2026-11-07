@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible problem in existing Decidr behavior.
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Include the behavior you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Node.js, pnpm, operating system, and workspace.
+    validations:
+      required: true
